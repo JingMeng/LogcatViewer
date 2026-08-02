@@ -1,4 +1,4 @@
-package wei.mark.standout;
+﻿package wei.mark.standout;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,8 +9,8 @@ import wei.mark.standout.constants.StandOutFlags;
 import wei.mark.standout.ui.Window;
 import android.app.Notification;
 import android.app.NotificationManager;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationCompat.Builder;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationCompat.Builder;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Context;
@@ -2003,3 +2003,4 @@ public abstract class StandOutWindow extends Service {
 		}
 	}
 }
+

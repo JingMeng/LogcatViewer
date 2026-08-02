@@ -1,11 +1,10 @@
 apply plugin: 'com.android.library'
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 22
+        minSdk 14
+        targetSdk 34
     }
 
     buildTypes {
@@ -13,10 +12,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
+    
     }
 }
 dependencies {
-    compile project(':standOut')
+    implementation project(':standOut')
 }
+
+
 
 

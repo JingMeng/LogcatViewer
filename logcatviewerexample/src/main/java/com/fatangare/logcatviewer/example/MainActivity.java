@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (C) 2016  Sandeep Fatangare <sandeep@fatangare.info>
  *
  * This program is free software: you can redistribute it and/or modify
@@ -18,7 +18,7 @@
 package com.fatangare.logcatviewer.example;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.fatangare.logcatviewer.utils.LogcatViewer;
 
@@ -36,3 +36,4 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 }
+
