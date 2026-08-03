@@ -1,4 +1,4 @@
-﻿package wei.mark.standout;
+package wei.mark.standout;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.fatangare.logcatviewer.example'
     namespace 'com.fatangare.logcatlogger.example'
     compileSdk 34
     defaultConfig {
@@ -10,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    sourceSets { main { java.exclude '**/*.java' } }
     buildTypes {
         release {
             minifyEnabled false

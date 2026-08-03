@@ -1,11 +1,13 @@
 apply plugin: 'com.android.library'
 android {
+    namespace 'com.fatangare.logcatviewer'
     compileSdk 34
 
     defaultConfig {
         minSdk 14
         targetSdk 34
     }
+    sourceSets { main { java.exclude '**/*.java' } }
 
     buildTypes {
         release {
